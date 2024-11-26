@@ -1,7 +1,10 @@
+// 프로그래머스 Lv.1 신고 결과 받기
+// https://school.programmers.co.kr/learn/courses/30/lessons/92334
+
 function solution(id_list, report, k) {
     let countId = id_list.length;
 
-    // 신고 내역 reportDetails
+    // 신고 내역 reportDetails 2차원 배열로 저장
     let reportDetails = Array.from({ length: countId }, () =>
         Array(countId).fill(false)
     );
@@ -14,7 +17,7 @@ function solution(id_list, report, k) {
     }
     //console.log(reportDetails)
 
-    // 2번 이상 신고당한 사람 찾기
+    // k번 이상 신고당한 사람 찾기
     const suspendedId = [];
     for (let i = 0; i < countId; i++) {
         let reportCount = 0;
@@ -28,6 +31,7 @@ function solution(id_list, report, k) {
     }
     // console.log(suspendedId)
 
+    // 신고한 사람(= 메일을 받을 사람)이 받을 메일 수 count
     const reportedIdx = new Array(countId).fill(0);
     for (let i = 0; i < countId; i++) {
         for (let j = 0; j < countId; j++) {
