@@ -1,4 +1,4 @@
-// Lv.2 모의고사
+// Lv.1 모의고사
 // https://school.programmers.co.kr/learn/courses/30/lessons/42840?language=javascript
 
 function solution(answers) {
