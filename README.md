@@ -1,3 +1,3 @@
-```
-#Algorism Study with Programmers
-```
+# Algorism Study with Programmers
+
+use Jest
