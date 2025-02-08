@@ -64,3 +64,5 @@ function getAllSubsets(numbers) {
     combine(visited, '');
     return result;
 }
+
+module.exports = { solution, isPrime, getAllSubsets };
