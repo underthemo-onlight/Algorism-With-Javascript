@@ -1,4 +1,4 @@
-const solution = require('../Lv.2/42842-카펫');
+const solution = require('../42842-카펫');
 
 describe("카펫", () => {
     test("1st", () => {

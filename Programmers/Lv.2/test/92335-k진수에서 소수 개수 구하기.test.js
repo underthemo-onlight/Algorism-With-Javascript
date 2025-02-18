@@ -1,4 +1,4 @@
-const solution = require('../Lv.2/92335-k진수에서 소수 개수 구하기');
+const solution = require('../92335-k진수에서 소수 개수 구하기');
 
 describe("k진수에서 소수 개수 구하기", () => {
     test("1", () => {

@@ -1,4 +1,4 @@
-const solution = require('../Lv.2/17680-캐시');
+const solution = require('../17680-캐시');
 
 describe("캐시", () => {
     test("모든 데이터가 cache miss", () => {

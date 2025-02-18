@@ -1,4 +1,4 @@
-const solution = require('../Lv.2/1844-게임 맵 최단거리');
+const solution = require('../1844-게임 맵 최단거리');
 
 describe("게임 맵 최단거리", () => {
     test("최단거리 구하기", () => {

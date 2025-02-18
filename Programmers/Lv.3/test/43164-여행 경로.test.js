@@ -1,4 +1,4 @@
-const solution = require('../../Lv.3/43164-여행 경로');
+const solution = require('../43164-여행 경로');
 
 describe("여행 경로", () => {
     test("주어진 항공권은 모두 사용해야 합니다.", () => {

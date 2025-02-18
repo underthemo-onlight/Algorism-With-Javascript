@@ -1,4 +1,4 @@
-const solution = require('../Lv.2/42860-조이스틱');
+const solution = require('../42860-조이스틱');
 
 describe("조이스틱", () => {
     test("모든 것을 순회해야하는 경우", () => {

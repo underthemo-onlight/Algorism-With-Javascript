@@ -1,4 +1,4 @@
-const { solution, isPrime, getAllSubsets } = require('../Lv.2/42839-소수찾기');
+const { solution, isPrime, getAllSubsets } = require('../42839-소수찾기');
 
 describe("소수찾기", () => {
     test("일반적인 케이스", () => {

@@ -1,4 +1,4 @@
-const solution = require('../Lv.2/87946-피로도');
+const solution = require('../87946-피로도');
 
 describe("피로도", () => {
     test("1", () => {

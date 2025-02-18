@@ -1,4 +1,4 @@
-const solution = require('../../Lv.3/43163-단어변환');
+const solution = require('../43163-단어변환');
 
 describe("단어변환", () => {
     test("변환 가능한 경우", () => {

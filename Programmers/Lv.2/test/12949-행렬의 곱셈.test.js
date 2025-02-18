@@ -1,4 +1,4 @@
-const { solution, getElement } = require('../Lv.2/12949-행렬의 곱셈');
+const { solution, getElement } = require('../12949-행렬의 곱셈');
 
 describe("행렬의 곱셈", () => {
     test("원소 구하기", () => {

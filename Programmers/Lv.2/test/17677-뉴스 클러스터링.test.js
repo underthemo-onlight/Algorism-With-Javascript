@@ -1,4 +1,4 @@
-const { solution, getElement } = require('../Lv.2/17677-뉴스 클러스터링');
+const { solution, getElement } = require('../17677-뉴스 클러스터링');
 
 describe("뉴스 클러스터링", () => {
     test("배열 생성1", () => {

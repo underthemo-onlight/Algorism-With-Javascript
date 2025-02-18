@@ -1,4 +1,4 @@
-const solution = require('../../Lv.3/43162-네트워크');
+const solution = require('../43162-네트워크');
 
 describe("네트워크", () => {
     test("그래프가 나눠져 있는 경우", () => {
